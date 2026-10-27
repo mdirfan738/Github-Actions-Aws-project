@@ -8,8 +8,7 @@ dist/
 
 # Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 .venv/
 venv/
 *.egg-info/
@@ -20,7 +19,7 @@ htmlcov/
 # Terraform
 **/.terraform/
 *.tfstate
-*.tfstate.backup
+*.tfstate.*
 *.tfplan
 .terraform.lock.hcl
 *.tfvars
